@@ -14,10 +14,12 @@ Hospital-DBMS/
 │       └── java/
 │           └── com/
 │               └── hdbms/
-│                   ├── App.java
-│                   ├── controllers/
+│                   ├── app.java
+│                   ├── DAO/
 │                   ├── models/
-│                   └── utils/
+│                   ├── views/
+│                   ├── resources/
+│                   └── services/
 ├── target/
 │   └── hospital-dbms-1.0-SNAPSHOT.jar
 ├── pom.xml
@@ -25,7 +27,9 @@ Hospital-DBMS/
 └── LICENSE
 ```
 
-- `src/main/java/com/hdbms/`: Contains the main application code, including controllers, models, and utility classes.
+- `src/main/java/com/hdbms/`: Contains the main application code, including DAO, models, and services classes.
+
+- `src/main/java/com/hdbms/views`: Contains the main GUI component of the code, which was build using java swing
     
 - `target/`: Directory where the compiled `.jar` file is generated after building the project.
     
@@ -72,7 +76,7 @@ Ensure you have [Java JDK](https://www.oracle.com/java/technologies/javase-downl
 
 We extend our gratitude to the following individuals for their contributions to this project:
 
-- [@not-wish (Vishesh Agarwal)](https://github.com/not-wish)
+- [@not-wish (Vishesh Agarwal)](https://github.com/not-wish) **Main Developer**
 - [@FamieM (Famie Manoj)](https://github.com/FamieM)
 - [@supriya-07G (G. Supriya)](https://github.com/supriya-07G)
 - [@Jadephoenix05 (G. Padma Pranitha)](https://github.com/Jadephoenix05)
